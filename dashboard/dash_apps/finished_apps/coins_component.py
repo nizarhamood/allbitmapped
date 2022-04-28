@@ -1,7 +1,7 @@
 '''
 API from CoinRanking.com
 
-SSL: WRONG_VERSION_NUMBER error due to Turkey location, need VPN connection
+SSL: WRONG_VERSION_NUMBER error due to location, need VPN connection
 '''
 import requests
 import pandas as pd
