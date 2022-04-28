@@ -1,0 +1,41 @@
+{% block content %}
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">allbitmapped</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="{% url 'blockchain' %}">Blockchain</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'coins' %}">Coins</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'defi' %}">DeFi</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'exchanges' %}">Exchanges</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'fin_indexes' %}">Indexes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'global_stats' %}">Global Stats</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'markets' %}">Markets</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'nft' %}">NFT</a> <!-- This will be a drop down menu with more options --->
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'sign_up' %}">Sign Up</a>
+        </li>
+      </ul>
+    </div> 
+  </nav>
+    
+{% endblock %}
